@@ -1,0 +1,52 @@
+---
+title: "Reproducible Research Practices 2021"
+author:
+- name: Carlos Granell
+  url: http://carlosgranell.eu
+  affiliation: Universitat Jaume I
+  affiliation_url: http://geotec.uji.es/
+  orcid_id: 0000-0003-1004-9695
+- name: Sergi Trilles
+  url: http://www3.uji.es/~strilles/
+  affiliation: Universitat Jaume I
+  affiliation_url: http://geotec.uji.es/
+  orcid_id: 0000-0002-9304-0719
+  
+date: "`r Sys.Date()`"
+bibliography: references.bib
+link-citations: true
+
+description: |
+  Curso de formacion transversal 'Reproducible Research Practices' 2021 (RRP 21) 
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+## Bienvenida
+
+¡Gracias por asistir a este curso!
+
+## Enlaces
+
+**Semana 1: Introducción a la reproducibilidad**
+
+-   Sesión 1.1: [Reproducibilidad y replicabilidad](sesion11.html)
+
+-   Sesión 1.2: [Evaluación de la reproducibilidad](sesion12.html)
+
+**Semana 2: Prácticas y recomendaciones**
+
+-   Sesión 2.1: [Organización, recomendaciones y buenas prácticas reproducibles](sesion21.html)
+
+**Semana 3: Literate programming y notebooks**
+
+-   Sesión 3.1: Literate programming y markdown
+
+-   Sesión 3.2: Notebooks
