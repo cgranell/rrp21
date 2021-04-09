@@ -16,23 +16,24 @@ Harassment is any form of behavior intended to exclude, intimidate, or cause dis
 
 Prohibited harassing behavior includes but is not limited to:
 
-- written or verbal comments which have the effect of excluding people on the basis of membership of a specific group listed above;
-- causing someone to fear for their safety, such as through stalking, following, or intimidation;
-- the display of sexual or violent images;
-- unwelcome sexual attention;
-- non-consensual or unwelcome physical contact;
-- sustained disruption of talks, events or communications;
-- incitement to violence, suicide, or self-harm;
-- continuing to initiate interaction (including photography or recording) with someone after being asked to stop; and
-- publication of private communication without consent.
+-   written or verbal comments which have the effect of excluding people on the basis of membership of a specific group listed above;
+-   causing someone to fear for their safety, such as through stalking, following, or intimidation;
+-   the display of sexual or violent images;
+-   unwelcome sexual attention;
+-   non-consensual or unwelcome physical contact;
+-   sustained disruption of talks, events or communications;
+-   incitement to violence, suicide, or self-harm;
+-   continuing to initiate interaction (including photography or recording) with someone after being asked to stop; and
+-   publication of private communication without consent.
 
-Behavior not explicitly mentioned above may still constitute harassment. The list above should not be taken as exhaustive but rather as a guide to make it easier to enrich all of us and the communities in which we participate.
-All interactions should be professional regardless of location: harassment is prohibited whether it occurs on or offline, and the same standards apply to both.
+Behavior not explicitly mentioned above may still constitute harassment. The list above should not be taken as exhaustive but rather as a guide to make it easier to enrich all of us and the communities in which we participate. All interactions should be professional regardless of location: harassment is prohibited whether it occurs on or offline, and the same standards apply to both.
 
 Enforcement of the Code of Conduct will be respectful and not include any harassing behaviors.
 
 Thank you for helping make this a welcoming, friendly community for all.
 
-<aside>[This code of conduct is a simplification of the CoC for [Reproducible Research workshos at AGILE](https://o2r.info/reproducible-agile/), which is based on a CoC for [Teaching Tech Together](http://teachtogether.tech/) by Greg Wilson, which in turn is based on that used by PyCon, which in turn is forked from a template written by the Ada Initiative and hosted on the Geek Feminism Wiki.]</aside>
+<aside>
 
+[This code of conduct is a simplification of the CoC for [Reproducible Research workshos at AGILE](https://o2r.info/reproducible-agile/), which is based on a CoC for [Teaching Tech Together](http://teachtogether.tech/) by Greg Wilson, which in turn is based on that used by PyCon, which in turn is forked from a template written by the Ada Initiative and hosted on the Geek Feminism Wiki.]
 
+</aside>

@@ -9,66 +9,23 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-::: {style="border-style: solid;"}
-*El texto recuadrado corresponde a los enunciados de las actividades tal como se proporcionan a los participantes*
-:::
-
-## ¿Qué deben saber?
-
-Los resultados de aprendizaje esperados (RRP) para esta sesión, destacando la acción (verbo) en negrita e indicando el nivel de la taxonomía de Bloom al que corresponde el resultado de aprendizaje, y la competencia especifica (CE) con la que está relacionado.
-
-| \#    | Resultados de aprendizaje                                                                 | Bloom            | CE   |
-|-------|-------------------------------------------------------------------------------------------|------------------|------|
-| RRP05 | **Organizar** recursos de un proyecto para facilitar la reproducibilidad y reutilización. | Low - Understand | CE01 |
-| RRP06 | **Contrastar** las familias principales de licencias para software y datos.               | High - Analyse   | CE01 |
-| RRP07 | **Comprender** las buenas prácticas de citación de datos y software                       | Low - Understand | CE01 |
-
-Los contenidos de la sesión 2.1. se refieren a los resultados de aprendizaje RRP05, RRP06 y RRP07, e introducen recomendaciones y buenas prácticas reproducibles en la preparación de un proyecto y en el workflow diario de un proyecto.
-
-::: {style="border-style: solid;"}
-Los resultados de aprendizaje de la sesión...
+## Los resultados de aprendizaje de la sesión...
 
 -   RRP05 - **Organizar** recursos de un proyecto para facilitar la reproducibilidad y reutilización.
 -   RRP06 - **Contrastar** las familias principales de licencias para software y datos.
 -   RRP07 - **Comprender** las buenas prácticas de citación de datos y software.
-:::
 
-## ¿Cómo sabré que lo saben?
+## Los contenidos de la sesión...
 
-Los criterios de evaluación son **acciones observables** que permiten al docente determinar si el estudiante ha logrado el resultado de aprendizaje. Por lo tanto, los criterios de evaluación son la concreción de los resultados de aprendizaje, es decir, me permite comprobar si lo que hace/demuestra el estudiante se ajusta al resultado de aprendizaje correspondiente.
-
-+-------+------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-| \#    | Resultados de aprendizaje                                                                | Criterios de evaluación                                                                         |
-+=======+==========================================================================================+=================================================================================================+
-| RRP05 | **Organizar** recursos de un proyecto para facilitar la reproducibilidad y reutilización | -   Reflexiona sobre las recomendaciones y prácticas relacionándolos con su experiencia propia. |
-+-------+------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-| RRP06 | Contrastar las familias principales de licencias para software y datos                   | -   Seleccionar las licencia mas idóneas en su experiencia propia.                              |
-+-------+------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-| RRP07 | Comprender las buenas prácticas de citación de datos y software                          | -   Identifica los causo de uso mas habituales en su experiencia propia.                        |
-+-------+------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-
-La idea de la sesión 2.1 es proporcionar una lista de recomendaciones y buenas prácticas para que los participantes preparen sus proyectos teniendo en cuenta dichas prácticas.
-
-## ¿Qué contenidos deben trabajar?
-
-Los participantes van a trabajar sobre una serie de recomendaciones aplicables a un proyecto, ya sea de investigación o docente, con el fin de que los recursos generados sean reproducibles. Se trata de dar respuesta a la pregunta guía del curso, **¿qué puedo hacer para que mi próximo artículo sea reproducible?** Algunas recomendaciones son de tipo organizativo, ya que su sistematización en las tareas diarias de investigación permiten consolidar hábitos en favor de la investigación reproducible. Otras prácticas versan sobre el uso de licencias adecuadas para los diferentes tipos de recursos de un proyecto, así como en la importancia de citar adecuadamente los datos y software utilizados. Se indica también herramientas de apoyo para llevar a cabo algunas de las prácticas, aunque el uso práctico de esas herramientas queda fuera del objetivo de la sesión.
-
-Los contenidos de la sesión...
-
-::: {style="border-style: solid;"}
 -   Prácticas y recomendaciones organizativas, y herramientas de apoyo
 
 -   Tipos de licencias para datos y software
 
 -   Prácticas recomendables para la citación de datos y software
-:::
 
-## ¿Qué actividades deben hacer?
+## Actividades y materiales
 
-### Actividades antes de clase
-
-::: {style="border-style: solid;"}
-**Que hacer antes de clase [Tiempo estimado: 4 horas]**
+**[Tiempo estimado: 4 horas]**
 
 Existen excelentes guías practicas con recomendaciones generales para el fomento de la reproducibilidad, gestión de datos de investigación y la ciencia abierta. En esta semana echaremos un vistazo a tres guías que son recursos excelentes para la ciencia abierta y la investigación reproducible.
 
@@ -90,15 +47,8 @@ Existen excelentes guías practicas con recomendaciones generales para el foment
 
 6.  Lee las dos primeras secciones (*Software Citation Principles*, *Motivation*) del artículo *Software citation principles* [@smith2016]. Luego, salta al Anexo B (*Software citation use cases*), que enumera situaciones de uso de software que se pueden dar en un artículo. ¿Qué casos de usos (selecciona 3 como máximo) se dan habitualmente en tus artículos? De estos, ¿en cuantos de ellos citas el software correctamente?.
 
-**Entrega:**
+## **Entrega**
 
 -   Sube tu auto-reflexión (actividades 3, 5 y 6) en el foro e indica también la disciplina a la que perteneces en el mensaje.
-:::
 
-### Actividades en clase
-
-## ¿Cómo recibirán el feedback sobre su desempeño? ¿Cómo deberán actuar ante el feedback ?
-
-## ¿Cómo recibirán la nota?
-
-Se trata de un curso especial que contabiliza como "superado" con el fin de cumplir el requisito de horas de formación según cada programa de doctorado. Para darlo como superado puedo exigir que entreguen las actividades 3, 5 y 6.
+### 

@@ -9,56 +9,13 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-::: {style="border-style: solid;"}
-*El texto recuadrado corresponde a los enunciados de las actividades tal como se proporcionan a los participantes*
-:::
-
-## ¿Qué deben saber?
-
-Los resultados de aprendizaje esperados (RRP) para esta sesión, destacando la acción (verbo) en negrita e indicando el nivel de la taxonomía de Bloom al que corresponde el resultado de aprendizaje, y la competencia especifica (CE) con la que está relacionado.
-
-+-------+--------------------------------------------------------------------------------------------------+------------------+------+
-| \#    | Resultados de aprendizaje                                                                        | Bloom            | CE   |
-+=======+==================================================================================================+==================+======+
-| RRP03 | **Describir y distinguir** los criterios de reproducibilidad                                     | Low - Understand | CE01 |
-+-------+--------------------------------------------------------------------------------------------------+------------------+------+
-| RRP04 | **Evaluar** el nivel de reproducibilidad en trabajos de investigación propios u otros propuestos | High - Apply     | CE01 |
-+-------+--------------------------------------------------------------------------------------------------+------------------+------+
-
-Los contenidos de la sesión 1.2 se refieren a los resultados de aprendizaje RRP03 y RRP04, que están relacionados. Son más prácticos en el sentido que permiten a los participantes darse cuenta de que las prácticas reproducibles pueden hasta cierto punto **ser medibles y cuantificables**, en vez de situarlas únicamente en un plano abstracto y de buenas intenciones (como se incide inicialmente en la sesión 1.1 - RRP01 y RRP02). El conocimiento aprendido en RRP03 se aplica directamente en RRP04.
-
-::: {style="border-style: solid;"}
-Los resultados de aprendizaje de la sesión...
+## Los resultados de aprendizaje de la sesión...
 
 -   RRP03 - **Describir y distinguir** los criterios de reproducibilidad
 
 -   RRP04 - **Evaluar** el nivel de reproducibilidad en trabajos de investigación propios u otros propuestos
-:::
 
-## ¿Cómo sabré que lo saben?
-
-Los criterios de evaluación son **acciones observables** que permiten al docente determinar si el estudiante ha logrado el resultado de aprendizaje. Por lo tanto, los criterios de evaluación son la concreción de los resultados de aprendizaje, es decir, me permite comprobar si lo que hace/demuestra el estudiante se ajusta al resultado de aprendizaje correspondiente.
-
-+-------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-| \#    | Resultados de aprendizaje                                                                        | Criterios de evaluación                                                                                                                 |
-+=======+==================================================================================================+=========================================================================================================================================+
-| RRP03 | **Describir y distinguir** los criterios de reproducibilidad                                     | -   Explica los criterios de evaluación del nivel de reproducibilidad y los cuestiona o enmarca en el contexto de su propia disciplina. |
-+-------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-| RRP02 | **Evaluar** el nivel de reproducibilidad en trabajos de investigación propios u otros propuestos | -   Identifica los criterios a partir de la lectura de un artículo académico.                                                           |
-|       |                                                                                                  |                                                                                                                                         |
-|       |                                                                                                  | -   Distingue entre los niveles para cada criterio a partir de la lectura de un artículo.                                               |
-|       |                                                                                                  |                                                                                                                                         |
-|       |                                                                                                  | -   Reflexiona sobre el nivel de reproducibilidad obtenido, los interpreta y plantea alternativas para mejorar la reproducibilidad.     |
-+-------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-
-Los criterios de reproducibilidad es un mecanismo sencillo para estimar el grado de reproducción de un trabajo o artículo sin llegar a realizar la tarea de reproducir cada figura, tabla, datos estadísticos o modelos que aparece mencionado en un artículo. Se trata de apreciar los diferentes elementos y factores que hay que tener en cuenta para que un artículo sea etiquetado como reproducible, lo cual requiere examinarlo desde un prisma distinto al del mérito científico.
-
-## ¿Qué contenidos deben trabajar?
-
-En la sesión 1.2, como preámbulo de las sesiones posteriores donde se especifican una serie de prácticas concretas de reproducibilidad, hay que empezar por cuantificar cuan reproducible es un (o mi) artículo, para saber de dónde parte cada estudiante y visualizar ese "gap" que falta para lograr tener un artículo reproducible. Es decir, dejamos el plano de discusión o reflexión a alto nivel, para entrar en materia más concreta y práctica.
-
-::: {style="border-style: solid;"}
-Los contenidos de la sesión...
+## Los contenidos de la sesión...
 
 -   Recursos que forman parte del proceso científico, más allá del artículo científico publicado.
 
@@ -69,14 +26,10 @@ Los contenidos de la sesión...
 -   Como leer un artículo científico.
 
 -   Como leer un artículo científico desde la perspectiva de la reproducibilidad.
-:::
 
-## ¿Qué actividades deben hacer?
+## Actividades y materiales
 
-### Actividades antes de clase
-
-::: {style="border-style: solid;"}
-**Que hacer antes de clase [Tiempo estimado: 2 horas]**
+**[Tiempo estimado: 2 horas]**
 
 1.  Del siguiente artículo [@nust2018], lee las primeras tres secciones (*Introduction, Related Work, Materials & Methods*), donde se proponen unos criterios para evaluar el grado de reproduciblidad de un artículo. Presta atención a la [figura 2](https://doi.org/10.7717/peerj.5072/fig-2), la cual esquematiza los niveles para cada uno de los criterios de reproducibilidad. Es necesario que te familiarices con estos criterios y sus niveles para cuantificar posteriormente cuan reproducible es un artículo.
 
@@ -84,40 +37,23 @@ Los contenidos de la sesión...
 
 3.  Reflexiona sobre tu proceso y prácticas de investigación en general (no te focalices en un proyecto o artículo en concreto) y contesta a las siguientes preguntas (Cuestionario)
 
-    1.  Indica departamento y/o grupo de investigación.
+    -   Indica departamento y/o grupo de investigación.
 
-    2.  ¿Realizas una investigación teórica-conceptual, práctica-experimental, o una combinación de ellas?
+    -   ¿Realizas una investigación teórica-conceptual, práctica-experimental, o una combinación de ellas?
 
-    3.  ¿Juegan los datos de entrada un papel importante en tu investigación? ¿Utilizas fuentes de datos ya existentes? ¿O generas los datos expresamente para tu investigación (p.e. cuestionarios)?
+    -   ¿Juegan los datos de entrada un papel importante en tu investigación? ¿Utilizas fuentes de datos ya existentes? ¿O generas los datos expresamente para tu investigación (p.e. cuestionarios)?
 
-    4.  ¿Necesitas ajustar, arreglar, limpiar, en definitiva, pre-procesar los datos de entrada para tu investigación?
+    -   ¿Necesitas ajustar, arreglar, limpiar, en definitiva, pre-procesar los datos de entrada para tu investigación?
 
-    5.  ¿Realizas algún análisis o aplicas algún modelo sobre los datos? ¿Utilizas alguna herramienta tecnológica ya existente para el análisis, o escribes tu propio código para analizar los datos? ¿O ambas cosas?
+    -   ¿Realizas algún análisis o aplicas algún modelo sobre los datos? ¿Utilizas alguna herramienta tecnológica ya existente para el análisis, o escribes tu propio código para analizar los datos? ¿O ambas cosas?
 
-    6.  ¿Las tablas, figuras, gráficos, mapas o diagramas son resultados habituales en tu investigación, es decir, aparecen frecuentemente en tus informes o artículos finales?
+    -   ¿Las tablas, figuras, gráficos, mapas o diagramas son resultados habituales en tu investigación, es decir, aparecen frecuentemente en tus informes o artículos finales?
 
 4.  Realiza un ejercicio de auto-evaluación en el que deberás asignar un nivel (NA, 0, 1, 2, 3) para cada uno de los criterios de reproducibilidad aplicados a uno de tus artículos publicados. Reflexiona sobre aquellos criterios de reproducibilidad que te resultan más difíciles de llevar a cabo (por la falta de conocimiento técnico o de herramienta de apoyo o simplemente porque nunca los ha tenido en cuenta). Destaca tres aspectos (como máximo) que te gustaría intentar mejorar para el próximo artículo de investigación.
 
-**Entrega:**
+## **Entrega:**
 
 -   Responde a las preguntas de la actividad 3 en el cuestionario.
 -   Sube tu auto-reflexión (actividad 4) en el foro e indica también la disciplina a la que perteneces en el mensaje.
-:::
 
-### Actividades en clase
-
-En la primera parte de la clase, se discuten los resultados de la actividad 3 realizada previamente. Idealmente, el trabajo es por parejas o en grupos de tres personas, siempre que todos los integrantes del grupo sean de la misma disciplina (psicólogos con psicólogos, informáticos con informáticos, etc.). En esta primera parte de la clase (1/2 hora) se intenta que los participantes expongan sus estrategias de investigación en función de los criterios de reproducibilidad en una misma disciplina, para apreciar diferencias y semejanzas, o incluso aspectos que algún participante puede adoptar en su propia práctica de investigación.
-
-Luego, en la siguiente hora siguiente, se ponen en común los resultados de la actividad 4 (evaluación nivel de reproducibilidad del artículo seleccionado de forma individual). Cada participante del grupo expone su evaluación (rúbrica) al resto del grupo, discutiendo y resolviendo las discrepancias en la evaluación, con el fin de aflorar interpretaciones erróneas de los criterios de reproducibilidad.
-
-En la última parte de la clase (1/2 hora), en el marco de la actividad 4, cada participante de forma individual reflexionada sobre aquellos criterios de reproducibilidad que le resultan más difíciles de llevar a cabo en su propia investigación por la falta de conocimiento técnico o de herramienta de apoyo o simplemente porque nunca los ha tenido en cuenta. Propondría que cada participante confeccionara una lista con aquellos aspectos mejorables, y que destacara los tres para mejorar de forma inmediata (descartando el resto por el momento). Es decir, todo a la vez no se puede mejorar. Es preferible ganar confianza, consolidar un cambio de mentalidad y actitud frente a la reproducibilidad, empezando con cambios pequeños e ir incrementando el nivel de exigencia de reproducibilidad gradualmente).
-
-## ¿Cómo recibirán el feedback sobre su desempeño? ¿Cómo deberán actuar ante el feedback?
-
-Las actividades de antes de clase se entregan con antelación. La actividad 3 sirve para tener una idea sobre las practicas actuales en investigación de cada participante.
-
-Con respecto a la actividad 4 de autoevaluación, me da pistas sobre qué aspectos debo recalcar en las sesiones de la semana 2, donde se describen y aplican prácticas concretas para que el proceso de investigación sea más reproducible, pudiendo por lo tanto dar feedback individualmente. Por ejemplo, si se deprende de la autoevaluación que no se presta atención a como se organizan los datos en entrada, es un aspecto que debo resaltar en sesiones posteriores y conectarlo con lo que han identificado los participantes como "cosas para mejorar". Incluso, el resultado de las actividades me puede también servir para resaltar ciertas prácticas a nivel de disciplina, dando feedback "colectivo" a nivel de disciplina.
-
-## ¿Cómo recibirán la nota?
-
-Se trata de un curso especial que contabiliza como "superado" con el fin de cumplir el requisito de horas de formación según cada programa de doctorado. Para darlo como superado puedo exigir que entreguen las actividades 3 y 4.
+### 

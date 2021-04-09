@@ -9,70 +9,23 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-::: {style="border-style: solid;"}
-*El texto recuadrado corresponde a los enunciados de las actividades tal como se proporcionan a los participantes*.
-:::
-
-## ¿Qué deben saber?
-
-Los resultados de aprendizaje esperados (RRP) para esta sesión, destacando la acción (verbo) en negrita e indicando el nivel de la taxonomía de Bloom al que corresponde el resultado de aprendizaje, y la competencia especifica (CE) con la que está relacionado.
-
-+-------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+------+
-| \#    | Resultados de aprendizaje                                                                                                                                                                   | Bloom          | CE   |
-+=======+=============================================================================================================================================================================================+================+======+
-| RRP01 | **Reconocer** la importancia de la investigación reproducible (computacional) como un pilar fundamental de la ciencia moderna, y sus tendencias principales (reproducir, replicar, recrear) | Low - Remember | CE01 |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+------+
-| RRP02 | **Comparar y contrastar** las tendencias en investigación reproducible contextualizadas a la disciplina propia de cada estudiante                                                           | High - Analyse | CE01 |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+------+
-
-Los contenidos de la sesión 1.1 se refieren a los resultados de aprendizaje RRP01 y RRP02, que están relacionados. Se trata de introducir la importancia de la reproducibilidad a los participantes, y que identifiquen ejemplos de prácticas reproducibles en sus propias disciplinas. Es el primer contacto con el concepto, luego se introduce en un plano abstracto y de buenas intenciones.
-
-::: {style="border-style: solid;"}
-**Los resultados de aprendizaje de la sesión...**
+## **Los resultados de aprendizaje de la sesión...**
 
 -   RPP01 - **Reconocer** la importancia de la investigación reproducible (computacional) como un pilar fundamental de la ciencia moderna, y sus tendencias principales (reproducir, replicar, recrear).
 
 -   RRP02 - **Comparar y contrastar** las tendencias en investigación reproducible contextualizadas a la disciplina propia de cada estudiante.
-:::
 
-## ¿Cómo sabre lo que saben?
-
-Los criterios de evaluación son **acciones observables** que permiten al docente determinar si el estudiante ha logrado el resultado de aprendizaje. Por lo tanto, los criterios de evaluación son la concreción de los resultados de aprendizaje, es decir, me permite comprobar si lo que hace/demuestra el estudiante se ajusta al resultado de aprendizaje correspondiente.
-
-+-------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| \#    | Resultados de aprendizaje                                                                                                                                                                   | Criterios de evaluación                                                                                                            |
-+=======+=============================================================================================================================================================================================+====================================================================================================================================+
-| RRP01 | **Reconocer** la importancia de la investigación reproducible (computacional) como un pilar fundamental de la ciencia moderna, y sus tendencias principales (reproducir, replicar, recrear) | -   Reflexiona sobre los conceptos relacionándolos con su experiencia propia.                                                      |
-|       |                                                                                                                                                                                             |                                                                                                                                    |
-|       |                                                                                                                                                                                             | -   Identifica el "Learner Persona" que más se ajusta a su perfil.                                                                 |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| RRP02 | **Comparar y contrastar** las tendencias en investigación reproducible contextualizadas a la disciplina propia de cada estudiante                                                           | -   Reflexiona sobre los conceptos en el seno de su propia disciplina, es decir, comparándose con los estándares de su disciplina. |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-
-La idea de la sesión 1.1 (junto con la sesión 1.2) es diagnosticar la posición de partida de los participantes en cuanto a su conceptualización o modelo mental previo sobre la reproducibilidad asó como si ya llevan a cabo prácticas reproducibles en su investigación.
-
-## ¿Qué contenidos deben trabajar?
-
-Los participantes van a trabajar la importancia de la reproducibilidad en la ciencia moderna, y discuten cuán importante es en su propio contexto (disciplina o área/línea de investigación). También van a distinguir entre los términos dominantes (reproducción, replicación, etc.) y los enmarcarán en su contexto para reconocer cuál de estos términos predomina en su disciplina o área de investigación. ¿Se adopta el mismo enfoque en psicología, informática, economía o ciencias sociales? Finalmente, se promueve una reflexión sobre cómo encaja el enfoque predominante en la disciplina de cada participante en las propias investigaciones pasadas y/o presentes de los participantes. ¿Qué incluyen mis colegas de disciplina en sus artículos para que sean reproducibles/replicables? ¿Qué ganan estos colegas? ¿Mis artículos son equiparables a los de mis colegas (en términos de reproducibilidad)?
-
-En definitiva, la idea de la sesión 1.1 es centrar el curso en la reproducibilidad computacional de artículos y, sobretodo, despertar el gusanillo en los participantes sobre el asunto para que se pregunten: **¿Qué puedo hacer para que mi próximo artículo sea reproducible?** Este es el objetivo que dirige el curso. Sin embargo, esta sesión introductoria debería servir para que el docente capte el concepto de reproducción que traen los participantes. Reproducción no es un concepto difícil de entender por sí mismo, pero tampoco es un concepto binario (si/no), sino que admite una amplia gama de grises que depende de muchos factores circunstanciales: habilidades técnicas del investigador/a, voluntad de trabajar de forma transparente y abierta, nivel de honestidad e integridad en hacer ciencia, percepción sobre la necesidad de hacer investigación reproducible, prioridad preconcebida sobre qué partes de una investigación son importantes (paper!) frente a otras (todo lo demás), etc. En general, la adopción de las prácticas en investigación reproducibles depende en última instancia de lo que cada participante entiende (porque lo ha observado o ha sido instruido de ese único modo) sobre lo que es "hacer ciencia e investigación". Luego, hacer comprender el papel primordial de la reproducibilidad en el quehacer científico puede que implique un (¿ligero?, ¿muy ligero?) cambio conceptual, pero doy por sentado que implica un cambio drástico en el plano práctico de lo que se entiende por "hacer ciencia".
-
-::: {style="border-style: solid;"}
-**Los contenidos de la sesión...**
+## **Los contenidos de la sesión...**
 
 -   Reconocemos la importancia de la reproducción y replicación como parte del método científico y de la ciencia abierta (RPP01).
 
 -   Introducimos los conceptos de reproducibilidad y replicabilidad (RRP01).
 
 -   Contextualizamos sobre las prácticas y estándares de reproducción exigidos/percibidos en nuestra propia disciplina o área de conocimiento (RRP02).
-:::
 
-## ¿Qué actividades deben hacer?
+## Actividades y materiales
 
-### Actividades antes de clase
-
-::: {style="border-style: solid;"}
-**Qué hacer antes de clase [Tiempo estimado: 2 horas]**
+**[Tiempo estimado: 2 horas]**
 
 1.  De los ejemplos [Participantes Tipo](personas.html) (o *Learner Persona*), ¿con cuál te identificas más, aunque no se ajuste del todo a tu perfil?
 
@@ -84,31 +37,8 @@ En definitiva, la idea de la sesión 1.1 es centrar el curso en la reproducibili
 
 5.  (Opcional) Si aún dudas en abrazar la reproducibilidad, [Five Selfish Reasons to Work Reproducibly by Dr. Florian Markowetz](https://www.youtube.com/watch?v=yVT07Sukv9Q)], basado en su publicación homónima [@markowetz2015], te convencerá.
 
-**Entrega:**
+## **Entrega**
 
 -   Indica el Participante Tipo con el que te mejor te identificas (actividad 1) en el cuestionario.
 
 -   Sube tu auto-reflexión (actividades 3 y 4) en el foro e indica también la disciplina a la que perteneces en el mensaje.
-:::
-
-### Actividades en clase
-
-[Tiempo estimado: 1 hora]
-
-Discusión abierta entre todos los participantes acerca de las auto-reflexiones enviadas al foro (Actividades 3 y 4). Adicionalmente, podemos lanzar preguntas abiertas en las que obtener reflexiones, opiniones o interpretaciones personales del grado de importancia de la reproducibilidad de los participantes:
-
--   Estándares de reproducibilidad a nivel de disciplina: diferencias, exigencias requeridas, necesidades, etc.
-
--   ¿Mis artículos son equiparables a los de mis colegas (en términos de reproducibilidad)?
-
--   ¿Qué gano si integro/adopto prácticas reproducibles en mi investigación? ¿Cómo puede hacerlo en mi grupo, o con mis colaboradores?
-
-Planificar una investigación reproducible cuesta tiempo, hay que organizar y planificar desde el diseño, adquirir ciertas habilidades, y en definitiva implica un cambio de mentalidad a largo plazo porque una vez arrancas con las prácticas de investigación reproducible vienen para quedarse. Sin embargo, no se incentiva ni se premia "hacer las cosas mejor": No hay un beneficio adicional entre publicar un paper no reproducible y un paper reproducible, salvo en la satisfacción personal en la transparencia e integridad en la investigación.
-
-## ¿Cómo recibirán el *feedback* sobre su desempeño? ¿Cómo deberán actuar ante el *feedback*?
-
-Puedo revisar las actividades de auto-reflexión en el foro para tener una idea sobre de donde parte cada participante individual en cuanto a la reproducibilidad. Además, puedo crear un mapa conceptual con las reflexiones a nivel de disciplina, para obtener una visión global de la percepción de la reproducibilidad por disciplinas. Esto me puede guiar a identificar necesidades específicas en cuanto a reproducibilidad en distintas disciplinas, para la semana 2.
-
-## ¿Como recibirán la nota?
-
-Se trata de un curso especial que contabiliza como "superado" con el fin de cumplir el requisito de horas de formación según cada programa de doctorado. Para darlo como superado puedo exigir que entreguen las actividades 1, 3 y 4.
