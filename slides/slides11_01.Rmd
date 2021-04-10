@@ -22,8 +22,17 @@ output:
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(collapse = TRUE,
                       fig.retina = 3)
-
 ```
+
+```{r share-again, echo=FALSE}
+library(xaringanExtra)
+
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin", "pocket")
+)
+```
+
 
 ```{r, load_refs, include=FALSE, cache=FALSE}
 source("load_references.r")

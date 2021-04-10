@@ -29,7 +29,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1.  De los ejemplos [Participantes Tipo](personas.html) (o *Learner Persona*), ¿con cuál te identificas más, aunque no se ajuste del todo a tu perfil?
 
-2.  Puedes repasar los conceptos de reproducibilidad, replicación y reproducibilidad computational en [Reproducibility: historical notes & concept](slides/slides11_01.html).
+2.  Puedes repasar los conceptos de reproducibilidad, replicación y reproducibilidad computational en [Reproducibility: historical notes & concept](slides/slides11_01.html)
+
+    ```{r embed-again, echo=FALSE, fig.cap="[Slides](slides/slides11_01.html)"}
+    xaringanExtra::embed_xaringan(url = "slides/slides11_01.html", ratio = "16:9")
+    ```
 
 3.  Reflexiona en qué medida estos términos (reproducción, replicación) están extendido en tu propia disciplina o área de investigación. ¿Cuál es más predominante en tu disciplina? ¿Qué incluyen colegas de disciplina en sus artículos para que sean reproducibles y/o replicables? De las revistas en las que publicas, ¿solicitan artículos reproducibles?
 

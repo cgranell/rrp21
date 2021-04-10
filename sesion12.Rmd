@@ -35,6 +35,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 2.  Para entrar en contexto sobre tu proceso y prácticas de investigación: "[PhD thesis meets reproducibility](slides/slides12_01.html)".
 
+    ```{r embed-again, echo=FALSE, fig.cap="[Slides](slides/slides12_01.html)"}
+    xaringanExtra::embed_xaringan(url = "slides/slides12_01.html", ratio = "16:9")
+    ```
+
 3.  Reflexiona sobre tu proceso y prácticas de investigación en general (no te focalices en un proyecto o artículo en concreto) y contesta a las siguientes preguntas (Cuestionario)
 
     -   Indica departamento y/o grupo de investigación.
