@@ -30,7 +30,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nBienvenida\r\nEnlaces\r\n\r\n\r\n\r\n\r\nBienvenida\r\n¡Gracias por asistir a este curso!\r\nEnlaces\r\nSemana 1: Introducción a la reproducibilidad\r\nSesión 1.1: Reproducibilidad y replicabilidad\r\nSesión 1.2: Evaluación de la reproducibilidad\r\nSemana 2: Prácticas y recomendaciones\r\nSesión 2.1: Organización, recomendaciones y buenas prácticas reproducibles\r\nSemana 3: Literate programming y notebooks\r\nSesión 3.1: Literate programming y markdown\r\nSesión 3.2: Notebooks\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-10T16:19:34+02:00"
+      "last_modified": "2021-04-10T16:25:30+02:00"
     },
     {
       "path": "personas.html",

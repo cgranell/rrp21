@@ -31,6 +31,9 @@ navbar:
         - text: "---"
         - text: "Sesion 2.1"
           href: sesion21.html
+
+    - icon: fab fa-github
+      href: https://github.com/cgranell/rrp21
   search: true
 output:
   distill::distill_article:
