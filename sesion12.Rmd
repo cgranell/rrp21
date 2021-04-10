@@ -39,7 +39,7 @@ knitr::opts_chunk$set(echo = TRUE)
     xaringanExtra::embed_xaringan(url = "slides/slides12_01.html", ratio = "16:9")
     ```
 
-3.  Reflexiona sobre tu proceso y prácticas de investigación en general (no te focalices en un proyecto o artículo en concreto) y contesta a las siguientes preguntas (Cuestionario)
+3.  Reflexiona sobre tu proceso y prácticas de investigación en general (no te focalices en un proyecto o artículo en concreto) y contesta a las siguientes preguntas.
 
     -   Indica departamento y/o grupo de investigación.
 
@@ -57,7 +57,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## **Entrega:**
 
--   Responde a las preguntas de la actividad 3 en la **Encuesta Prácticas de investigación en el Aula Virtual**.
+-   Responde a las preguntas de la actividad 3 en la **Encuesta Prácticas de investigación** en el Aula Virtual.
 -   Sube tu auto-evaluación (actividad 4) en el foro **Auto-evaluación de la reproducibilidad** en el AV e indica también la disciplina a la que perteneces en el mensaje.
 
 ### 
