@@ -57,7 +57,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## **Entrega:**
 
--   Responde a las preguntas de la actividad 3 en el cuestionario.
--   Sube tu auto-reflexión (actividad 4) en el foro e indica también la disciplina a la que perteneces en el mensaje.
+-   Responde a las preguntas de la actividad 3 en la **Encuesta Prácticas de investigación en el Aula Virtual**.
+-   Sube tu auto-evaluación (actividad 4) en el foro **Auto-evaluación de la reproducibilidad** en el AV e indica también la disciplina a la que perteneces en el mensaje.
 
 ### 
