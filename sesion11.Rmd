@@ -43,6 +43,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## **Entrega**
 
--   Indica el Participante Tipo con el que te mejor te identificas (actividad 1) en el cuestionario.
+-   Indica el Participante Tipo con el que te mejor te identificas (actividad 1) en la **Encuesta Personas** en el Aula Virtual.
 
--   Sube tu auto-reflexión (actividades 3 y 4) en el foro e indica también la disciplina a la que perteneces en el mensaje.
+-   Sube tu auto-reflexión (actividades 3 y 4) en el foro **Auto-reflexión sobre reproducibilidad/replicabilidad de tu disciplina** en el Aula Virtual e indica también la disciplina a la que perteneces en el mensaje.
