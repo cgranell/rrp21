@@ -31,6 +31,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "cgranell/rrp21") %>%
+  meta_social(
+    title = "Reproducible Research Practices'21",
+    url ="https://cgranell.github.io/rrp21/"
+  )
+
+```
+
+
 ## Bienvenida
 
 ¡Gracias por asistir a este curso!
