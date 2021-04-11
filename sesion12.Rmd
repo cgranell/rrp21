@@ -33,7 +33,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1.  Del siguiente artículo [@nust2018], lee las primeras tres secciones (*Introduction, Related Work, Materials & Methods*), donde se proponen unos criterios para evaluar el grado de reproduciblidad de un artículo. Presta atención a la [figura 2](https://doi.org/10.7717/peerj.5072/fig-2), la cual esquematiza los niveles para cada uno de los criterios de reproducibilidad. Es necesario que te familiarices con estos criterios y sus niveles para cuantificar posteriormente cuan reproducible es un artículo.
 
-2.  Para entrar en contexto sobre tu proceso y prácticas de investigación: "[PhD thesis meets reproducibility](slides/slides12_01.html)".
+2.  Para entrar en contexto sobre tu proceso y prácticas de investigación: "[PhD thesis meets reproducibility" (slides)](slides/slides12_01.html) y ([video](https://drive.google.com/file/d/1TNZeXzXp9TuU-L6a6s3AvnIMSgBNVp_4/view?usp=sharing)).
 
     ```{r embed-again, echo=FALSE, fig.cap="[Slides](slides/slides12_01.html)"}
     xaringanExtra::embed_xaringan(url = "slides/slides12_01.html", ratio = "16:9")
