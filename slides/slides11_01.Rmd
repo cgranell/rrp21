@@ -54,7 +54,10 @@ background-size: cover
 
 .right[.whiteinline[`r rmarkdown::metadata$institute`]]
 
+???
 
+This enhanced color view of Jupiter's south pole was created using data from the JunoCam instrument on NASA's Juno spacecraft. Original from NASA.
+Source: [Rawpixel](https://www.rawpixel.com/image/440596/jupiters-south-pole)
 
 ---
 name: spacecraft

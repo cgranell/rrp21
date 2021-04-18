@@ -1,6 +1,6 @@
 ---
 title: "Basic recommendations for reproducible projects"
-subtitle: "[2.1] Recomendations "
+subtitle: "[2.1] Recomendations and practices"
 author: "Carlos Granell"
 institute: "Universitat Jaume I"
 date: "April 2021"
@@ -31,7 +31,7 @@ source("load_references.r")
 
 name: title
 class: Left, middle
-background-image: url(images/rawpixel/nasa-moon.jpg)
+background-image: url(images/rawpixel/nasa-sun.jpg)
 background-size: cover
 
 
@@ -45,7 +45,10 @@ background-size: cover
 
 .right[.whiteinline[`r rmarkdown::metadata$institute`]]
 
+???
 
+Solar Observations taken during the Transit of Venus. Originally from NASA.
+Source: [Rawpixel(https://www.rawpixel.com/image/440254/solar-observations)
 
 ---
 name: spacecraft
@@ -367,7 +370,7 @@ class: center, middle
 
 1. .large[Document, document, document]
 
-1. ,large[Add a LICENSE file(s)]
+1. .large[LICENSE file(s)]
 
 1. .large[Use Version Control Systems (VCS)]
 
@@ -387,5 +390,5 @@ PrintBibliography(my_refs, start = 1, end = 5)
 # References
 
 ```{r print_refs2, echo=FALSE, results="asis"}
-PrintBibliography(my_refs, start = 6, end = 6)
+PrintBibliography(my_refs, start = 6, end = 8)
 ```

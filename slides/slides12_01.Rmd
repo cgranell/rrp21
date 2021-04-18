@@ -45,7 +45,10 @@ background-size: cover
 
 .right[.whiteinline[`r rmarkdown::metadata$institute`]]
 
+???
 
+Moon - north polar mosaic. Original from NASA.
+Source: [Rawpixel](https://www.rawpixel.com/image/441553/north-polar-the-moon)
 
 ---
 name: spacecraft

@@ -33,7 +33,11 @@ Existen excelentes guías practicas con recomendaciones generales para el foment
 
 2.  Lee *Passport for Open Science: A Practical Guide for PhD Students* [@barthez2020], explica cómo elaborar la investigación doctoral en línea con los principios de la ciencia abierta. Las prácticas son aplicables a cualquier disciplina y, aunque centradas en estudiantes de doctorado, se dirigen a cualquier investigador/a con independencia de su experiencia previa.
 
-3.  Esta presentación ["Basic recommendations for reproducible projects" (slides)](slides/slides21_01.html) (video) resume algunos de los aspectos y prácticas de tipo organizativo para la preparación y primeros pasos de un proyecto. Según los tres aspectos a mejorar (limitaciones) que identificaste en la sesión anterior, reflexiona y selecciona las prácticas que puedes llevar a cabo para superar dichas limitaciones en tu próximo artículo de investigación.
+3.  Esta presentación ["Basic recommendations for reproducible projects" (slides)](slides/slides21_01.html) ([y video](https://drive.google.com/file/d/1ClXP52SNq-aW2XC9lGj3lG0C0TNPjpxD/view?usp=sharing)) resume algunos de los aspectos y prácticas de tipo organizativo para la preparación y primeros pasos de un proyecto. Según los tres aspectos a mejorar (limitaciones) que identificaste en la sesión anterior, reflexiona y selecciona las prácticas que puedes llevar a cabo para superar dichas limitaciones en tu próximo artículo de investigación.
+
+    ```{r embed-again, echo=FALSE, fig.cap="[Slides](slides/slides21_01.html)"}
+    xaringanExtra::embed_xaringan(url = "slides/slides21_01.html", ratio = "16:9")
+    ```
 
 4.  [*The Turing Way*](https://the-turing-way.netlify.app/welcome.html) es el tercer recurso o guía de esta sesión. Se trata mas bien de un compendio de guías sobre la ciencia abierta, reproducibilidad y la ética en la investigación. Lee la sección de "[Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html)" de la *Guide for Reproducible Research* [@turingway2019].
 
@@ -43,7 +47,7 @@ Existen excelentes guías practicas con recomendaciones generales para el foment
 
     </aside>
 
-5.  Esta presentación "Software and data licences" resume el ecosistema de licencias de datos y software, y las enmarca en la reciente [Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es) (Octubre 2020). Comenta sobre el tipo de licencia para software y para datos que utilizas normalmente, y cuál utilizarías en el caso de que nunca hayas especificado una licencia.
+5.  En la segunda sesión online de Tutorías (21 Abril) resumiremos el ecosistema de licencias para datos y software, y las enmarcaremos en la reciente [Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es) (Octubre 2020). Comenta sobre el tipo de licencia para software y para datos que utilizas normalmente (si lo haces), y cuál utilizarías en el caso de que nunca hayas especificado una licencia.
 
 6.  Lee las dos primeras secciones (*Software Citation Principles*, *Motivation*) del artículo *Software citation principles* [@smith2016]. Luego, salta al Anexo B (*Software citation use cases*), que enumera situaciones de uso de software que se pueden dar en un artículo. ¿Qué casos de usos (selecciona 3 como máximo) se dan habitualmente en tus artículos? De estos, ¿en cuantos de ellos citas el software correctamente?.
 
