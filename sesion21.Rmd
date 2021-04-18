@@ -1,7 +1,7 @@
 ---
 title: "Sesión 2.1"
 description: |
-  Organizació, recomendaciones y buenas prácticas reproducibles
+  Organización, recomendaciones y buenas prácticas reproducibles
 bibliography: references.bib
 ---
 
@@ -33,7 +33,7 @@ Existen excelentes guías practicas con recomendaciones generales para el foment
 
 2.  Lee *Passport for Open Science: A Practical Guide for PhD Students* [@barthez2020], explica cómo elaborar la investigación doctoral en línea con los principios de la ciencia abierta. Las prácticas son aplicables a cualquier disciplina y, aunque centradas en estudiantes de doctorado, se dirigen a cualquier investigador/a con independencia de su experiencia previa.
 
-3.  Esta presentación "A minimal reproducible project workflow" resume algunos de los aspectos y prácticas de tipo organizativo para la preparación y primeros pasos de un proyecto. Según los tres aspectos a mejorar (limitaciones) que identificaste en la sesión anterior, reflexiona y selecciona las prácticas que puedes llevar a cabo para superar dichas limitaciones en tu próximo artículo de investigación.
+3.  Esta presentación ["Basic recommendations for reproducible projects" (slides)](slides/slides21_01.html) (video) resume algunos de los aspectos y prácticas de tipo organizativo para la preparación y primeros pasos de un proyecto. Según los tres aspectos a mejorar (limitaciones) que identificaste en la sesión anterior, reflexiona y selecciona las prácticas que puedes llevar a cabo para superar dichas limitaciones en tu próximo artículo de investigación.
 
 4.  [*The Turing Way*](https://the-turing-way.netlify.app/welcome.html) es el tercer recurso o guía de esta sesión. Se trata mas bien de un compendio de guías sobre la ciencia abierta, reproducibilidad y la ética en la investigación. Lee la sección de "[Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html)" de la *Guide for Reproducible Research* [@turingway2019].
 

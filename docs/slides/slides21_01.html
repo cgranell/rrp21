@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Basic recommendations for reproducible projects</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Carlos Granell" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/cgc-xaringan-style.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+
+
+
+name: title
+class: Left, middle
+background-image: url(images/rawpixel/nasa-moon.jpg)
+background-size: cover
+
+
+# .whiteinline[.fancy[Basic recommendations for reproducible projects]]
+
+### .whiteinline[[2.1] Recomendations ]
+
+.whiteinline[Reproducible Research Practices (RRP'21) &amp;#183; April 2021]
+
+.right[.whiteinline[Carlos Granell &amp;#183; Sergi Trilles]]
+
+.right[.whiteinline[Universitat Jaume I]]
+
+
+
+---
+name: spacecraft
+class: bottom, middle
+background-image: url(images/rawpixel/nasa-cygnus-spacecraft.jpg)
+background-size: cover
+
+
+---
+template: spacecraft
+
+## Nobel laureate and physics professor [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)
+
+.large[“Science is a way of trying not to fool yourself. The principle is that you must not fool yourself, and you are the easiest person to fool.”]
+
+---
+## .center[Computational reproducibility]
+
+### If you were to reproduce a paper...
+
+1. .large[check the published manuscript to reproduce,] 
+
+1. .large[download associated data and code (and computational environment),]
+
+1. .large[run the analytical stuff, and ]
+
+1. .large[compare the results to the published results. ]
+
+
+---
+class: center, top
+
+## Ok, I got it. But getting started is difficult!
+
+--
+
+### "I have never heard of reproducibility before"
+
+--
+
+### "I'm not good at using tools. _You said github?_"
+
+--
+
+### "I have never been trained"
+
+--
+
+### "I don't know where to find tutorials, guidelines..." 
+
+--
+
+### "I'm superbusy! I do not have enough time"
+
+--
+
+### "I do theoretical stuff. Reproduction is not for me"
+
+
+---
+class: center, middle
+
+# No matter your excuse
+
+---
+class: center, middle
+
+# .fatinline[Reproducible Research Practices]
+
+### are central to enabling transparent and honest science
+
+---
+class: center, middle
+# You should ask
+
+
+### How do I start to make my next paper more reproducible?
+
+--
+
+### Which aspects should I improve the most?
+
+--
+
+### What steps or recommendations can I follow? 
+
+---
+class: center, left
+
+# Simple reproducible project workflows &amp; recommendations
+
+
+### Inspired by British Ecological Society (BES), [guides to better science](https://www.britishecologicalsociety.org/publications/guides-to/): .acidinline[Reproducible code] guide &lt;a name=cite-cooper2019&gt;&lt;/a&gt;[[CH19](https://www.britishecologicalsociety.org/publications/guides-to/)] and .acidinline[Data Management] &lt;a name=cite-harrison2018&gt;&lt;/a&gt;[[Har18](https://www.britishecologicalsociety.org/publications/guides-to/)]
+
+
+### .heatinline[Passport for Open Science: A Practical Guide for PhD Students] &lt;a name=cite-barthez2020&gt;&lt;/a&gt;[[BL20](https://www.ouvrirlascience.fr/passport-for-open-science-a-practical-guide-for-phd-students/)]
+
+### .coldinline[The Turing Way: A Handbook for Reproducible Data Science] &lt;a name=cite-turingway2019&gt;&lt;/a&gt;[[The+19](https://the-turing-way.netlify.app/welcome.html)]
+
+
+---
+class: inverse, center, middle
+
+# Basic recommedations to get started?
+
+
+---
+class: center
+
+# Five selfish reasons to work reproducibly &lt;a name=cite-markowetz2015&gt;&lt;/a&gt;[[Mar15](https://doi.org/10.1186/s13059-015-0850-7)]
+
+
+.pull-left[
+### helps to avoid disaster
+
+### makes it easier to write papers
+
+### helps reviewers see it your way
+
+### enables continuity of your work
+
+### helps to build your reputation
+
+]
+
+.pull-right[
+
+### .acidinline[You learn some new science]
+
+### .heatinline[You keep your paper bug-free]
+
+]
+
+---
+class: inverse, center, middle
+
+
+# What's your choice?
+
+---
+class: center, bottom
+background-image: url(images/rawpixel/clouds-nebraska.jpg)
+background-size: cover
+
+
+## .whiteinline[Business as usual scenario and irreproducible work remains the norm] &lt;a name=cite-hong2015&gt;&lt;/a&gt;[[Hon+15](https://arxiv.org/abs/1504.00062)]
+
+
+---
+class: center, middle
+background-image: url(images/rawpixel/beach.jpg)
+background-size: cover
+
+
+## Or you care about .acidinline[reproducibility] and .heatinline[transparency], and you are excited to acquire new reproducible research practices and habits! 
+
+---
+
+# References
+
+&lt;a name=bib-barthez2020&gt;&lt;/a&gt;[Baker, Anne-Sophie and Bernard
+Larrouturou](#cite-barthez2020) (2020). _Passport For Open Science_.
+URL:
+[https://www.ouvrirlascience.fr/passport-for-open-science-a-practical-guide-for-phd-students/](https://www.ouvrirlascience.fr/passport-for-open-science-a-practical-guide-for-phd-students/).
+
+&lt;a name=bib-cooper2019&gt;&lt;/a&gt;[Cooper, Natalie and Pen-Yuah
+Hsing](#cite-cooper2019) (2019). _Reproducible code_. URL:
+[https://www.britishecologicalsociety.org/publications/guides-to/](https://www.britishecologicalsociety.org/publications/guides-to/).
+
+&lt;a name=bib-harrison2018&gt;&lt;/a&gt;[Harrison, Kate](#cite-harrison2018)
+(2018). _Data management_. URL:
+[https://www.britishecologicalsociety.org/publications/guides-to/](https://www.britishecologicalsociety.org/publications/guides-to/).
+
+&lt;a name=bib-hong2015&gt;&lt;/a&gt;[Hong, NPC, T Crick, et al.](#cite-hong2015)
+(2015). "Top tips to make your research irreproducible". In: _arXiv
+preprint arXiv:1504.00062_. eprint: 1504.00062. URL:
+[https://arxiv.org/abs/1504.00062](https://arxiv.org/abs/1504.00062).
+
+&lt;a name=bib-markowetz2015&gt;&lt;/a&gt;[Markowetz, F](#cite-markowetz2015)
+(2015). "Five selfish reasons to work reproducibly". In: _Genome
+Biology_ 16, p. 274. URL:
+[https://doi.org/10.1186/s13059-015-0850-7](https://doi.org/10.1186/s13059-015-0850-7).
+
+&lt;a name=bib-turingway2019&gt;&lt;/a&gt;[The Turing Way Community, Becky Arnold,
+et al.](#cite-turingway2019) (2019). "The Turing Way: A Handbook for
+Reproducible Data Science". . This work was supported by The UKRI
+Strategic Priorities Fund under the EPSRC Grant EP/T001569/,
+particularly the "Tools, Practices and Systems" theme within that
+grant, and by The Alan Turing Institute under the EPSRC grant
+EP/N510129/1. DOI:
+[10.5281/zenodo.3233986](https://doi.org/10.5281%2Fzenodo.3233986).
+URL:
+[https://the-turing-way.netlify.app/welcome.html](https://the-turing-way.netlify.app/welcome.html).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
