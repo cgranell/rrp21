@@ -145,67 +145,247 @@ class: center, left
 
 ### .coldinline[The Turing Way: A Handbook for Reproducible Data Science] `r Cite(my_refs, "turingway2019")`
 
+???
+
+Look at the checklist in these guides.
 
 ---
 class: inverse, center, middle
 
 # Basic recommedations to get started?
 
+---
+class: center, middle
+
+# One project = One folder
+
+---
+class: center, top
+
+# What's a project?
+
+--
+
+### one experiment,
+
+### your ideas for future research,
+
+### regular meeting notes/minutes
+
+### a review paper, conference presentations
+
+### a book, teaching materials
+
+### PhD thesis manuscript
+
+---
+class: center, middle
+
+# Choose your best way to organise a folder 
+
+.large[Make sure it's consistent, informative and work for you]
+
+(eg: my [folder template](https://github.com/cgranell/rr-template))
+
+
+---
+class: center, middle
+
+# Consistent naming convention 
+
+---
+
+# .center[Consistent naming convention] 
+
+.pull-left[
+  .center[<img src="images/phdcomics1531.gif" width="60%" />]
+]
+
+.pull-right[
+- Name things in machine- and human-readable manner
+
+- Order by default: 
+  - For scripts, start file names with numbers indicating the position of the script in the analysis: `01_download_data.R`
+
+  - for data, you can use dates as prefix: `20200115_survey.csv`
+]
+
+???
+
+[Source](http://phdcomics.com/comics/archive.php?comicid=1531)
+
+
+---
+class: center, middle
+
+# Never touch raw data
+
+
+---
+class: center, middle
+
+# Choose a coding style
+
+
+---
+class: center, middle
+
+# Document, document, and document. 
+
+.large[Add README file(s)]
+
 
 ---
 class: center
+# README file(s) 
 
-# `r my_refs["markowetz2015"]$title` `r Cite(my_refs, "markowetz2015")`
+.large[Include a __README file__ in the root folder to describe the project, provide basic orientation to use your code, data, etc. ]
 
+.large[Include __README files__ to describe metadata/complex content o subfolders]
+
+
+.large[Automatically visualised when landing on a GitHub repository, because it's written in [Markdown](https://www.markdownguide.org/) (Week 3)]
+
+
+---
+class: center, middle
+
+# Add a LICENSE file(s)
+
+---
+
+# .center[Licences] 
 
 .pull-left[
-### helps to avoid disaster
 
-### makes it easier to write papers
+### A license is a contract between the authors and the users. 
 
-### helps reviewers see it your way
+- Without a license, **copyright** is automatically attached to your work. 
 
-### enables continuity of your work
+- Always **add a license to software** you plan to make public
+ - Permissive = attribution (recommended for academic work)
 
-### helps to build your reputation
+ - Copyleft = share-alike (derivate work maintain same license as the original)
+ 
+- Always **add a license to data** you plan to make public
+
 
 ]
 
 .pull-right[
 
-### .acidinline[You learn some new science]
+### Further readings:
 
-### .heatinline[You keep your paper bug-free]
+- Visit [choosealicense](https://choosealicense.com/) or [OSI-approved licenses](https://opensource.org/licenses)
 
+- `r Cite(my_refs, "morin2012")`: _`r my_refs["morin2012"]$title`_
+
+- `r Cite(my_refs, "jolly2012")`: _`r my_refs["jolly2012"]$title`_
 ]
-
----
-class: inverse, center, middle
-
-
-# What's your choice?
-
----
-class: center, bottom
-background-image: url(images/rawpixel/clouds-nebraska.jpg)
-background-size: cover
-
-
-## .whiteinline[Business as usual scenario and irreproducible work remains the norm] `r Cite(my_refs["hong2015"])`
 
 
 ---
 class: center, middle
-background-image: url(images/rawpixel/beach.jpg)
-background-size: cover
+
+# Use Version Control Systems (VCS)
 
 
-## Or you care about .acidinline[reproducibility] and .heatinline[transparency], and you are excited to acquire new reproducible research practices and habits! 
+---
+
+# .center[Version Control Systems] 
+
+.pull-left[
+
+### Turn you project folder into a local version control repository
+
+- to keep track changes of your work
+
+- to provide a complete historical log of your project 
+
+- to handle properly text formats (code, text documents, markdown documents) as opposed to rich/binary formats (Word). 
+  
+]
+
+.pull-right[
+### Tools: 
+
+- SVN, Mercurial, [Git](https://git-scm.com/)
+
+### Additional readings: 
+
+- [Getting started with git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+- [An introduction to Git: what it is, and how to use it](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/) 
+
+- `r Cite(my_refs, "perez2016")`, `r Cite(my_refs, "bryan2020")`
+
+]
+
+---
+class: center, middle
+
+# Use online code repositories services
+
+---
+
+# .center[Online code repositories services] 
+
+.pull-left[
+
+### Web-based platform for hosting code repositories
+
+- VCS + collaborative features
+
+]
+
+.pull-right[
+### Tools: 
+
+- [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), [GitHub](https://github.com/)
+
+### Additional readings: 
+
+- [Cookiecutter Data Science: Best practices for organising your repository for easy version control](https://drivendata.github.io/cookiecutter-data-science/)
+
+- `r Cite(my_refs, "perez2016")`, `r Cite(my_refs, "bryan2020")`
+
+]
+
+---
+
+# Summary
+
+1. .large[One project = One folder]
+
+1. .large[Choose your best way to organise a folder]
+
+1. .large[Consistent naming convention]
+
+1. .large[Never touch raw data]
+
+1. .large[Choose a coding style]
+
+1. .large[Document, document, document]
+
+1. ,large[Add a LICENSE file(s)]
+
+1. .large[Use Version Control Systems (VCS)]
+
+1. .large[Use online code repositories services]
+
 
 ---
 
 # References
 
 ```{r print_refs1, echo=FALSE, results="asis"}
-PrintBibliography(my_refs)
+PrintBibliography(my_refs, start = 1, end = 5)
+```
+
+---
+
+# References
+
+```{r print_refs2, echo=FALSE, results="asis"}
+PrintBibliography(my_refs, start = 6, end = 6)
 ```
