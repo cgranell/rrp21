@@ -1,0 +1,48 @@
+---
+title: "Sesión 3.1"
+description: |
+  Literate programming y markdown
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Los resultados de aprendizaje de la sesión...
+
+-   RRP08 - **Comprender** el valor de combinar una pregunta, código fuente y el resultado
+
+## Los contenidos de la sesión...
+
+-   Usos prácticos de markdown desde la investigación
+
+-   Usos prácticos de markdown desde la docencia
+
+-   Prácticas recomendables para la citación de datos y software
+
+## Actividades y materiales
+
+**[Tiempo estimado: 2 horas]**
+
+a para exes son recursos excelentes para la ciencia abierta y la investigación reproducible. Siguen las actividades sigueinte en orden
+
+1.  Markdown es un lenguaje muy sencillo para escribir contenido especialmente para la Web. Es tan simple e intuitivo que vais a empezar a escribir texto en Markdown antes de pasar a la Actividad 2. Completa el siguiente tutorial interactivo [markdowntutorial](https://www.markdowntutorial.com/) (solo son 10 minutos) para aprender los conceptos de Markdown.
+
+2.  Esta presentación "Markdown for research and teaching" (slides) (y video) resume las ventajes de Markdown para la creación de documentos en formatos variados, y sus usos prácticos para la investigación y la docencia.
+
+    ```{r embed-again, echo=FALSE, fig.cap="[Slides](slides/slides21_01.html)"}
+    xaringanExtra::embed_xaringan(url = "slides/slides21_01.html", ratio = "16:9")
+    ```
+
+3.  [*The Turing Way*](https://the-turing-way.netlify.app/welcome.html) es el tercer recurso o guía de esta sesión. Se trata mas bien de un compendio de guías sobre la ciencia abierta, reproducibilidad y la ética en la investigación. Lee la sección de "[Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html)" de la *Guide for Reproducible Research* [@turingway2019].
+
+    En la tercera sesión online de Tutorías (28 Abril) veremos que podemos generar disitntos formatos (html, pdf, etc) a partir de un documento zas normalmente (si lo haces), y cuál utilizarías en el caso de que nunca hayas especificado una licencia.
+
+4.  Lee las dos primeras secciones (*Software Citation Principles*, *Motivation*) del artículo *Software citation principles* [@smith2016]. Luego, salta al Anexo B (*Software citation use cases*), que enumera situaciones de uso de software que se pueden dar en un artículo. ¿Qué casos de usos (selecciona 3 como máximo) se dan habitualmente en tus artículos? De estos, ¿en cuantos de ellos citas el software correctamente?.
+
+## **Entrega**
+
+-   Sube tu auto-reflexión (actividades 3, 5 y 6) en el foro **Auto-reflexión de prácticas, licencias y citación** en el Aula Virutal e indica también la disciplina a la que perteneces en el mensaje.
+
+### 
