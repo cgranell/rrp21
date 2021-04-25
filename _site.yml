@@ -31,6 +31,11 @@ navbar:
         - text: "---"
         - text: "Sesion 2.1"
           href: sesion21.html
+        - text: "---"
+        - text: "Sesion 3.1"
+          href: sesion31.html
+        - text: "Sesion 3.2"
+          href: sesion32.html
 
     - icon: fab fa-github
       href: https://github.com/cgranell/rrp21

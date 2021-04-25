@@ -61,6 +61,6 @@ meta() %>%
 
 **Semana 3: Literate programming y notebooks**
 
--   Sesión 3.1: Literate programming y markdown
+-   Sesión 3.1: [Literate programming y markdown](sesion31.html)
 
--   Sesión 3.2: Notebooks con R Markdown
+-   Sesión 3.2: [Notebooks con R Markdown](sesion32.html)
