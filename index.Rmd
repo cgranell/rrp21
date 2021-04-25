@@ -63,4 +63,4 @@ meta() %>%
 
 -   Sesión 3.1: Literate programming y markdown
 
--   Sesión 3.2: Notebooks
+-   Sesión 3.2: Notebooks con R Markdown
