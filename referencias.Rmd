@@ -1,0 +1,10 @@
+---
+title: "Referencias"
+description: |
+  Bibliografía con todas la referencias, tanto si se han incluído como no en los materiales y transparencias del curso.  
+bibliography: references.bib
+nocite: |
+  @*
+---
+
+

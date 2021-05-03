@@ -19,6 +19,8 @@ navbar:
         href: guia_docente.html
       - text: "Personas"
         href: personas.html
+      - text: "Referencias"
+        href: referencias.html
       - text: "---"
       - text: "Code of Conduct"
         href: codigo_conducta.html
