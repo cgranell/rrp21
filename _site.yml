@@ -38,6 +38,9 @@ navbar:
           href: sesion31.html
         - text: "Sesion 3.2"
           href: sesion32.html
+        - text: "---"
+        - text: "Colofon"
+          href: colofon.html
 
     - icon: fab fa-github
       href: https://github.com/cgranell/rrp21
